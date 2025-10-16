@@ -82,3 +82,9 @@ git log # forma larga (detallada)
 git log --oneline -<cantidad de commits> 
 git log --oneline -2 # ver una cantidad de commit especifica
 ```
+
+# Subir el repo local al remoto
+
+```sh
+git push
+```
