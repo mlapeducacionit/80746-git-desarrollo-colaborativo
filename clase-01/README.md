@@ -73,3 +73,12 @@ git show 01b82c5
 ```sh
 git status --short
 ```
+
+## Ver timeline de commits
+
+```sh
+git log --oneline # forma corta
+git log # forma larga (detallada)
+git log --oneline -<cantidad de commits> 
+git log --oneline -2 # ver una cantidad de commit especifica
+```
