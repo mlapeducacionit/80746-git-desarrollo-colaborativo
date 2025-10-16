@@ -33,3 +33,17 @@ git config --global -e
 * Staging Area (Area de control de cambios) Se agregan los archivos para darle seguimiento y posteriormente sacarles una foto (commit)
 
 * Local Repo (Area de validación de cambios, donde se registran las modificaciones realizadas) Donde van a estar todas las fotos (commit) que vaya sacando.
+
+## Para ver el estado de los archivos y en que área de git están
+
+```sh
+git status
+```
+
+## Para pasar los archivos del Working Directory al Staging Area (index area)
+
+```sh
+git add .
+git add <carpeta>/<archivo>
+git add <carpeta1>/<archivo1> <carpeta1>/<archivo2> <carpeta1>/<archivo3>
+```
