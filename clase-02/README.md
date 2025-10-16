@@ -54,3 +54,25 @@ git log --oneline -2 # ver una cantidad de commit especifica
 ```sh
 git push
 ```
+
+## Agregar la url del remoto al local
+
+```sh
+git remote add <alias> <url-al-remoto>
+git remote add origin https://github.com/mlapeducacionit/80746-git-desarrollo-colaborativo.git
+```
+
+## Controlar que se haya colocando la url en el local
+
+```sh
+git remote 
+git remote -v # más dentalle
+```
+
+## Para subir al repositorio remoto
+
+```sh
+git push -u <remoto> <rama>
+git push -u origin main # relacionar la rama local con la remota
+git push # Una vez asociadas (relacionadas) no necesito volver a indicarle el remoto y la rama
+```
