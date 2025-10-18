@@ -23,3 +23,10 @@ git pull # Me traigo los cambios
 # Si yo ya se lo que va estar dentro del repo remoto
 git pull # <---- git fetch + git pull
 ```
+
+## Dividir lo que voy a commitear en varios commits
+
+```sh
+git add --patch
+# e -> Editar manual lo que quiero guardar en el SA
+```
