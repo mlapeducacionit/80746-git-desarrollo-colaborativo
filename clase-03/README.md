@@ -7,3 +7,10 @@ git <comando> --help
 git pull --help
 git add --help
 ```
+
+## Como subir los cambios al remoto
+
+```sh
+git push
+``` 
+
