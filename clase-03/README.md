@@ -14,3 +14,12 @@ git add --help
 git push
 ``` 
 
+## Para actualizar el local con el remoto
+
+```sh
+git fetch # Me traigo la metadata (Actualizo el .git de mi repo local)
+git pull # Me traigo los cambios
+
+# Si yo ya se lo que va estar dentro del repo remoto
+git pull # <---- git fetch + git pull
+```
