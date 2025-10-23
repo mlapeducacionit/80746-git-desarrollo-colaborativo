@@ -32,3 +32,16 @@ git branch -a
 ```sh
 git branch -av
 ```
+
+## Cambiar entre ramas
+
+```sh
+git switch <nombre-rama>
+git switch feature/ramas
+```
+
+> Y si quiero cambiar entre las últimas 2 ramas que se usaron
+
+```sh
+git switch -
+``` 
