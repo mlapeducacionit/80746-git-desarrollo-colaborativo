@@ -44,4 +44,10 @@ git switch feature/ramas
 
 ```sh
 git switch -
-``` 
+```
+
+## Ver el estado con detalle de las ramas (En que commits están)
+
+```sh
+git branch -av
+```
