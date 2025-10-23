@@ -51,3 +51,8 @@ git switch -
 ```sh
 git branch -av
 ```
+
+## Herramientas con interfaz gráfica de GIT
+
+* GitHub Desktop <https://desktop.github.com/download/>
+* GitKraken <https://www.gitkraken.com/b>
