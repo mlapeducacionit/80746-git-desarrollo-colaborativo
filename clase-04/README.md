@@ -57,3 +57,17 @@ git branch -av
 ```sh
 git switch -c feature/fusiones
 ```
+
+## Trabajando con fusiones
+**IMPORTANTE**: Es que para hacer una fusión. Tengo que estar en la rama destino. O sea si me quiero traer los cambios de la rama feature/ramas a la rama main, tnego que estar parado en la rama main y traerme los cambios de la otra rama
+
+```sh
+git switch main
+git merge feature/ramas
+```
+
+Pueden suceder 3 cosas
+
+* Fast-forward -> Fusión automatica -> Git se encarga de resolver la fusión
+* Tercer Vía -> Diferentes algoritmos para resolver la fusión -> Automatico
+* Conflicto -> El proceso de fusión es manual. Voy a tener que solventar el conflicto y avisarle a git que lo hice para terminar el proceso de fusión.
