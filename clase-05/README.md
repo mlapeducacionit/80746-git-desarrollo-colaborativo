@@ -23,3 +23,11 @@ Git reset hard (es el más agresivo de todos). Agarra los commits que le diga y 
 ```sh
 git reset -hard
 ```
+
+## GIT STASH
+
+### Listar stashes
+
+```sh
+git stash list
+```
