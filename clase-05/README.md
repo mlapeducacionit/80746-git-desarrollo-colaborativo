@@ -1,0 +1,25 @@
+# Clase 05 - Git desarrollado colaborativo
+
+## GIT Reset
+
+### GIT RESET SOFT
+Git reset soft agarra los commits que le diga y los borra. Dejando los cambios que lestaban dentro de los commits en el SA.
+
+```sh
+git reset --soft <hash>
+```
+
+### GIT RESET MIXED (Default)
+Git reset mixed (Es el reset por defecto). Agarra los commits que le diga y los borra. Dejando el contenido de los commits dentro del WD.
+
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+
+### GIT RESET HARD (Peligroso)
+Git reset hard (es el más agresivo de todos). Agarra los commits que le diga y el contenido lo descarta.
+
+```sh
+git reset -hard
+```
