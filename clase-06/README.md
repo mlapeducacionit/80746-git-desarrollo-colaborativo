@@ -37,3 +37,15 @@ git config --global --list
 git config --global --get-regexp alias
 ```
 
+### Distintos ambitos en GIT (scopes)
+
+1. --system (alto) -> A todo el sistema operativo. Usuarios y repositorios
+2. --global -> Aplica todos los repositorios del usuario actual. (Estandar)
+3. --local (bajo) -> Al repositorio especifico en el que estoy trabajando.
+
+```sh
+git config --<scope> 
+git config --system
+git config --global
+git config --local
+```
