@@ -18,3 +18,7 @@ Git rebase iteractivo me permite realizar las siguientes tareas
 * Unir commits
 * Separar commits
 
+```sh
+git rebase -i <la-cantidad-de-commits-que-quiero-intervenir>
+git rebase -i HEAD∼3
+```
