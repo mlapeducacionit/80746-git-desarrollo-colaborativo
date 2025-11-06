@@ -9,7 +9,9 @@ git switch feature/rebase
 git rebase main
 ``` 
 
-## Git Rebase interativo
+## Git Rebase interactivo
+
+Git rebase iteractivo me permite realizar las siguientes tareas
 
 * Ordenar commits
 * Corregir mensajes de los commits
