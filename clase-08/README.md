@@ -10,3 +10,9 @@ git rebase main
 ``` 
 
 ## Git Rebase interativo
+
+* Ordenar commits
+* Corregir mensajes de los commits
+* Unir commits
+* Separar commits
+
