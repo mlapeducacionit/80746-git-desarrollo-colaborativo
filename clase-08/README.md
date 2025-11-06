@@ -20,5 +20,5 @@ Git rebase iteractivo me permite realizar las siguientes tareas
 
 ```sh
 git rebase -i <la-cantidad-de-commits-que-quiero-intervenir>
-git rebase -i HEAD∼3
+git rebase -i HEAD~3
 ```
